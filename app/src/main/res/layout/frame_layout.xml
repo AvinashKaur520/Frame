@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:hint="enter username"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:hint="enter password"/>
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ok"
+            android:textSize="17dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="300dp"/>
+
+
+    </FrameLayout>
+
+</FrameLayout>
